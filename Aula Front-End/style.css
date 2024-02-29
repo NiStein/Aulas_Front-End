@@ -1,0 +1,39 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: dodgerblue;
+    font-size: 40px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+.fita{
+    width: 120px;
+    height: 25px;
+    background-color: rgba(224, 224, 54, 0.349);
+    margin: -32px auto auto 200px;
+}
+
+.div-total{
+    width: 500px;
+    margin: auto auto auto 500px;
+    background-color: rgba(243, 243, 180, 0.822);
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+img{
+    margin: 10px auto auto 500px;
+}
+
+hr{
+    text-align: center;
+    width: 40%;
+}
+
