@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    background: rgb(3, 0, 36);
+    background: radial-gradient(circle, rgba(3, 0, 36, 1) 16%, rgba(9, 90, 121, 1) 77%, rgba(0, 185, 255, 1) 100%);
+    color: white;
+}
+
+
+.titulo-pagina {
+    background-image: url(Imagens/1c4ad1200d6722a660073cb519c4b43c.jpg);
+    height: 80px;
+    padding: 10px auto 2px;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.div-secao {
+    margin: 10px auto auto 150px;
+    background-color: rgba(54, 54, 54, 0.671);
+    width: 80%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.sub-titulo {
+    color: rgb(221, 154, 30);
+    font-size: 40px;
+}
+
+.img {
+    background-size: auto;
+    max-width: 70%;
+    margin-left: 150px;
+}
+
+.div-livros {
+    margin: 10px auto auto 150px;
+    background-color: rgba(54, 54, 54, 0.671);
+    width: 80%;
+    height: 300px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.sub-titulo-livros {
+    color: rgb(0, 151, 0);
+    font-size: 40px;
+}
+
+.img-capa {
+    background-size: auto;
+    max-width: 5%;
+    max-height: 10%;
+    margin-left: 3px;
+    float: right;
+}
+
+:hover.img-capa {
+    max-width: 10%;
+    max-height: 20%;
+}
+
+.div-filmes {
+    margin: 10px auto auto 150px;
+    background-color: rgba(54, 54, 54, 0.671);
+    width: 80%;
+    height: 300px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.sub-titulo-filmes {
+    color: rgb(228, 228, 33);
+    font-size: 40px;
+}
+
+.div-jogos {
+    margin: 10px auto auto 150px;
+    background-color: rgba(54, 54, 54, 0.671);
+    width: 80%;
+    height: 310px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.sub-titulo-jogos {
+    color: wheat;
+    font-size: 40px;
+}
+
+li {
+    font-size: 17px;
+}
+
+p {
+    font-size: 17px;
+}
