@@ -1,0 +1,54 @@
+header{
+    background-color: rgb(71, 71, 71);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#navbar{
+    background-color: darkgray;
+    width: 30%;
+    padding: 20px;
+}
+
+#posts{
+    width: 70%;
+}
+article{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: lightgray;
+    width: 90%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.conner{
+    text-align: end;
+}
+
+#secTitle {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+footer{
+    background-color: rgb(71, 71, 71);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
