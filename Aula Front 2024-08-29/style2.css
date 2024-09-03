@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+li {
+    list-style-type: none
+}
+
+.icones-socias a {
+    width: 40px;
+    height: 40px;
+    display: block;
+    text-indent: -99999px;
+}
+
+.github {
+    background-image: url("imagens/github.png");
+}
+
+.linkedin {
+    background-image: url("imagens/linked.png");
+}
+
+.twitter {
+    background-image: url("imagens/twitter.png");
+}
