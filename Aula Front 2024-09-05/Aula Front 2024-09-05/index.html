@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaSite</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <button onclick="alert('Botão Clicado')">Clique em mim</button>
+    <p id="texto">Texto Original</p>
+    <p id="paragrafo">Este é um parágrafo.</p>
+
+    <p>Trocar o atributo de algum elemento</p>
+    <script>
+        document.getElementById("paragrafo").style.color = "blue";
+    </script>
+ 
+    <p>Declaração de variáveis e leitura de valores de uma caixa de texto</p>
+    <input type="text" id="entrada" value="Digite algo aqui">
+    <button onclick="mostrarTexto()">Exibir Texto</button>
+    <p id="resultado"></p>
+    <script>
+        function mostrarTexto() {
+        var texto = document.getElementById("entrada").value;
+        document.getElementById("resultado").innerHTML = "Você digitou: " +
+        texto.toUpperCase();
+        }
+    </script>
+
+    <p>Questão sobre arrays</p>
+    <script>
+        var frutas = ["Maçã", "Banana", "Laranja"];
+        document.write("Frutas: " + frutas.join(", "));
+    </script>
+    
+    <p>Questão sobre objetos JavaScript</p>
+    <script>
+        var carro = {modelo: "Civic", ano: 2020};
+        document.write("Modelo: " + carro.modelo + "<br>");
+        document.write("Ano: " + carro.ano);
+    </script>
+</body>
+</html>
